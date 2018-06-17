@@ -16,10 +16,21 @@
 <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
 
 <script>
-      $(document).ready(function () {
-        $(".sidenav-trigger").sideNav();
-      });
+    
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
     </script>
+
 
 </head>
 <body>
