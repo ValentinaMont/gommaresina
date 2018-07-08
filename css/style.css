@@ -29,6 +29,11 @@ p {
   line-height: 2rem;
 }
 
+.button-collapse {
+
+  color:#bcaaa4;
+
+}
 .sidenav-trigger {
   color: #26a69a;
 }
@@ -53,7 +58,7 @@ margin-top: 15%;
 margin-top: 10%;
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -61,7 +66,7 @@ margin-top: 10%;
   #index-banner .section {
     top: 10%;
   }
-
+}
   .nav-wrapper {
 
   padding: 0 10px;
@@ -69,17 +74,22 @@ margin-top: 10%;
   }
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
-}
 
+.nav-wrapper {
+  padding: 0 10px;
+
+  }
+ }
 
 .col-servizio {
 margin-top: 60px;
-
+margin-bottom: 100px;
 }
+
 .icon-block {
   padding: 0 15px;
 }
