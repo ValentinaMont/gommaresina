@@ -227,18 +227,21 @@ Email: <span itemprop=”email”>info@gommaspugna.it</span>
 
 		       
 <script>       
-$(document).ready(function(){
-    $('.sidenav')
-        .sidenav()
-        .on('click tap', 'li a', () => {
-            $('.sidenav').sidenav('close');
-        });
-});       
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });      
 		       
 </script>
 		       
 
-		       <script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
+<script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120953992-1"></script>
