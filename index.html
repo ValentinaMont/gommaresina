@@ -201,8 +201,6 @@ Email: <span itemprop=”email”>info@gommaspugna.it</span>
       </div>
     </div>
 
-    
-
     <div class="footer-copyright">
       <div class="container">
       2018 &copy <a class="grey-text text-lighten-3" href="https://www.materassigommapiumaroma.com">Gommaresina Laboratorio Materassi, Tappezzeria e Taglio Gommapiuma</a>
@@ -240,10 +238,17 @@ document.addEventListener('DOMContentLoaded', function() {
   $(document).ready(function(){
     $('.sidenav').sidenav();
   });      
-		      
+		     
+		       
+$( document ).ready(function(){
+$('.sidenav-trigger').sideNav({
+      closeOnClick: true
+    }
+  );
+});
+		       
 </script>
 		       
-
 <script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
