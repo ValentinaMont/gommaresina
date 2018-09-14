@@ -238,16 +238,27 @@ document.addEventListener('DOMContentLoaded', function() {
   $(document).ready(function(){
     $('.sidenav').sidenav();
   });      
-		     
 		       
+		       </script>		       
+		     
+<script>		       
 $( document ).ready(function(){
-$('.sidenav-trigger').sideNav({
+$('.sidenav').sideNav({
       closeOnClick: true
     }
   );
 });
-		       
+
 </script>
+		       
+	(function($){
+  $(function(){
+
+    $('.sidenav').sidenav();
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
+		       
 		       
 <script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
 
