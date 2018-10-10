@@ -45,7 +45,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav>
       <div class="nav-wrapper white">
         <a href="#" class="brand-logo">Gommaresina©</a>
-<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<a href="#" class="sidenav-trigger" data-target="mobile-nav" ><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#servizio">Prezzi Materassi Memory Foam</a></li>
            <li><a href="#preventivi">Cosa posso fare per te</a></li>
@@ -54,19 +54,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <li><a href="mailto:info@gommaspugna.it,v.montagna@gmail.com">Richiedi informazioni</a>
         </ul>
 
+</div>
+    </nav>
+ 
+	  
+	</div>
+        
+	 <ul class="sidenav" id="mobile-nav">
+		
 
-<ul class="sidenav" id="mobile-demo">
-
-	   <li><a href="#servizio">Prezzi Materassi Memory Foam</a></li>
+	 <li><a href="#servizio">Prezzi Materassi Memory Foam</a></li>
           <li><a href="#preventivi">Cosa posso fare per te</a></li>
           <li><a href="https://goo.gl/Lxo1EJ" target="_blank">Guarda cosa dicono di noi</a></li>
 	 <li><a href="https://goo.gl/maps/hMwD6ySbfpk">Dove siamo</a></li>
           <li><a href="mailto:info@gommaspugna.it,v.montagna@gmail.com">Richiedi informazioni</a>
-  </ul>
+		 </ul>  
+     
+	</ul>
 
-      </div>
-    </nav>
-  </div>
+<script>
+$(document).ready(function () {
+    $('.sidenav').sidenav();
+});
+</script>	
         <!--intro-->
 
   <div id="index-banner" class="parallax-container">
@@ -217,22 +227,21 @@ Tel:<span itemprop=”telephone”>+39 366 7193750</span>
 
 
 <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-
-
+	  
+<script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
+	
+	  <!--JavaScript aggiunto-->		
+	 
+	  <script src=js/jquery.js type="text/javascript"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-			
-	      <script>
-$(document).ready(function () {
-      	$(".button-collapse").sideNav();
-      });
-</script>
-	      
-<script>
+	 <!--JavaScript aggiunto ?-->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js</script>
+		       
+<script>       
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems, options);
@@ -240,8 +249,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Or with jQuery
   $(document).ready(function(){
     $('.sidenav').sidenav();
-  });
-</script>
+  });      
+		       
+</script>		       
+
 
 <script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
 
