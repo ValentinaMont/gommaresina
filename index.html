@@ -24,6 +24,18 @@
   <!--Google Font -->
 <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
 
+	<style>
+#sidenav-overlay
+	
+	{
+		
+		z-index:-1;
+		
+	} 
+	
+</style>
+	
+	
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -44,7 +56,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav>
       <div class="nav-wrapper white">
         <a href="#" class="brand-logo">Gommaresina©</a>
-<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#servizio">Prezzi Materassi Memory Foam</a></li>
            <li><a href="#preventivi">Cosa posso fare per te</a></li>
@@ -54,9 +66,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </ul>
 
 
-<ul class="sidenav" id="mobile-demo">
+<ul class="sidenav" id="nav-mobile="sidenav">
 
-	       <li><a href="#servizio">Prezzi Materassi Memory Foam</a></li>
+	   <li><a href="#servizio">Prezzi Materassi Memory Foam</a></li>
           <li><a href="#preventivi">Cosa posso fare per te</a></li>
           <li><a href="https://goo.gl/Lxo1EJ" target="_blank">Guarda cosa dicono di noi</a></li>
           <li><a href="mailto:info@gommaspugna.it,v.montagna@gmail.com">Richiedi informazioni</a>
@@ -85,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			
 	</div>
 
-        <div class="row center" itemscope itemtype="http://schema.org/LocalBusiness"><span itemprop="telephone">
+        <div class="row center" itemtype="http://schema.org/LocalBusiness"><span itemprop="telephone">
           <a href="tel:+393667193750" id="download-button" class="btn-large waves-effect green lighten-2">Chiamaci al +39 366 7193750</a>
 
         </div>
@@ -222,6 +234,8 @@ Tel:<span itemprop=”telephone”>+39 366 7193750</span>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+			
 	      <script>
 $(document).ready(function () {
       	$(".button-collapse").sideNav();
