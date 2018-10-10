@@ -220,19 +220,6 @@ Tel:<span itemprop=”telephone”>+39 366 7193750</span>
   </footer>
 
 
-<!--JavaScript at end of body for optimized loading-->
-	  
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/materialize.js"></script>
-<script src="js/init.js"></script>
-	
-	  <!--JavaScript aggiunto-->		
-	 
-	  <script src=js/jquery.js type="text/javascript"></script>
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-		       
 <script>       
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
@@ -243,7 +230,22 @@ document.addEventListener('DOMContentLoaded', function() {
     $('.sidenav').sidenav();
   });      
 		       
-</script>		       
+		       </script>		       
+		     
+<script>		       
+$( document ).ready(function(){
+$('.sidenav').sideNav({
+      closeOnClick: true
+    }
+  );
+});
+</script>
+		       
+	(function($){
+  $(function(){
+    $('.sidenav').sidenav();
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
 
 
 <script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
