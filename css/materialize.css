@@ -2182,7 +2182,7 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0.67em 0;
 }
 
@@ -2722,6 +2722,11 @@ img.responsive-img,
 video.responsive-video {
   max-width: 100%;
   height: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .pagination li {
